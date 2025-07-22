@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.tartaricacid.beaconflight.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "beaconflight.refmap.json",
+  "mixins": [
+    "BeaconBlockEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
